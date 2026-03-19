@@ -67,6 +67,32 @@ public sealed partial class MaterialStorageComponent : Component
     /// </summary>
     [DataField]
     public bool CanEjectStoredMaterials = true;
+
+    // Goobstation edit Start
+    [DataField, ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
+    public bool ConnectToSilo;
+
+    [DataField, AutoNetworkedField]
+    public bool DisconnectSiloOffMap;
+
+    [DataField, AutoNetworkedField]
+    public bool DisallowOreEjection = true;
+
+    [DataField, AutoNetworkedField]
+    public bool IgnoreMaterialWhiteList;
+    // Goobstation edit End
+
+    // LP Edit Start
+
+    /// <summary>
+    /// Is need to announce what item is inserted to something
+    /// </summary>
+
+    [DataField("announce")]
+    public bool NeedAnnounce = true;
+
+    // LP Edit End
+
 }
 
 [Serializable, NetSerializable]

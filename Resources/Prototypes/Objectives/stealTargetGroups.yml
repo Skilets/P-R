@@ -7,12 +7,14 @@
     sprite: Objects/Specific/Medical/hypospray.rsi
     state: hypo
 
-- type: stealTargetGroup
-  id: HandheldCrewMonitor
-  name: steal-target-groups-handheld-crew-monitor
-  sprite:
-    sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
-    state: scanner
+# LP Edit Start
+# - type: stealTargetGroup
+#   id: HandheldCrewMonitor
+#   name: steal-target-groups-handheld-crew-monitor
+#   sprite:
+#     sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
+#     state: scanner
+# LP Edit End
 
 - type: stealTargetGroup
   id: ClothingOuterHardsuitRd
@@ -60,7 +62,7 @@
   id: CaptainIDCard
   name: steal-target-groups-captain-id-card
   sprite:
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _LP/Objects/Misc/id_cards.rsi # LP Edit
     state: icon-captain
 
 - type: stealTargetGroup
@@ -153,7 +155,7 @@
   id: IDCard
   name: steal-target-groups-id-cards
   sprite:
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _LP/Objects/Misc/id_cards.rsi # LP Edit
     state: default
 
 - type: stealTargetGroup

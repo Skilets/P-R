@@ -98,6 +98,15 @@ namespace Content.IntegrationTests.Tests
             "CorvaxAwesome",
 			"CorvaxChloris",
             // Corvax-End
+            // LP-start
+            "LPAspid",
+            "LPCyberiad",
+            "LPKerberos",
+            "LPBeta",
+            "LPFland",
+            "LPMarathon",
+            "LPMaus",
+            // LP-end
             "Dev",
             "TestTeg",
             "Fland",
